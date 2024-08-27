@@ -1,0 +1,238 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package newpackage;
+
+/**
+ *
+ * @author PC22-COMLAB1
+ */
+
+import java.util.Scanner;
+
+public class Cortez {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Please enter an integer from 0 to 99: ");
+        int num = sc.nextInt();
+
+        int tens = num / 10;
+        int ones = num % 10;
+
+        if (tens == 0) {
+            if (ones == 0) {
+                System.out.println("Zero");
+            } else if (ones == 1) {
+                System.out.println("One");
+            } else if (ones == 2) {
+                System.out.println("Two");
+            } else if (ones == 3) {
+                System.out.println("Three");
+            } else if (ones == 4) {
+                System.out.println("Four");
+            } else if (ones == 5) {
+                System.out.println("Five");
+            } else if (ones == 6) {
+                System.out.println("Six");
+            } else if (ones == 7) {
+                System.out.println("Seven");
+            } else if (ones == 8) {
+                System.out.println("Eight");
+            } else if (ones == 9) {
+                System.out.println("Nine");
+            }
+        } else if (tens == 1) {
+            if (ones == 0) {
+                System.out.println("Ten");
+            } else if (ones == 1) {
+                System.out.println("Eleven");
+            } else if (ones == 2) {
+                System.out.println("Twelve");
+            } else if (ones == 3) {
+                System.out.println("Thirteen");
+            } else if (ones == 4) {
+                System.out.println("Fourteen");
+            } else if (ones == 5) {
+                System.out.println("Fifteen");
+            } else if (ones == 6) {
+                System.out.println("Sixteen");
+            } else if (ones == 7) {
+                System.out.println("Seventeen");
+            } else if (ones == 8) {
+                System.out.println("Eighteen");
+            } else if (ones == 9) {
+                System.out.println("Nineteen");
+            }
+        } else if (tens == 2) {
+            if (ones == 0) {
+                System.out.println("Twenty");
+            } else if (ones == 1) {
+                System.out.println("Twenty-One");
+            } else if (ones == 2) {
+                System.out.println("Twenty-Two");
+            } else if (ones == 3) {
+                System.out.println("Twenty-Three");
+            } else if (ones == 4) {
+                System.out.println("Twenty-Four");
+            } else if (ones == 5) {
+                System.out.println("Twenty-Five");
+            } else if (ones == 6) {
+                System.out.println("Twenty-Six");
+            } else if (ones == 7) {
+                System.out.println("Twenty-Seven");
+            } else if (ones == 8) {
+                System.out.println("Twenty-Eight");
+            } else if (ones == 9) {
+                System.out.println("Twenty-Nine");
+            }
+        } else if (tens == 3) {
+            if (ones == 0) {
+                System.out.println("Thirty");
+            } else if (ones == 1) {
+                System.out.println("Thirty-One");
+            } else if (ones == 2) {
+                System.out.println("Thirty-Two");
+            } else if (ones == 3) {
+                System.out.println("Thirty-Three");
+            } else if (ones == 4) {
+                System.out.println("Thirty-Four");
+            } else if (ones == 5) {
+                System.out.println("Thirty-Five");
+            } else if (ones == 6) {
+                System.out.println("Thirty-Six");
+            } else if (ones == 7) {
+                System.out.println("Thirty-Seven");
+            } else if (ones == 8) {
+                System.out.println("Thirty-Eight");
+            } else if (ones == 9) {
+                System.out.println("Thirty-Nine");
+            }
+        } else if (tens == 4) {
+            if (ones == 0) {
+                System.out.println("Forty");
+            } else if (ones == 1) {
+                System.out.println("Forty-One");
+            } else if (ones == 2) {
+                System.out.println("Forty-Two");
+            } else if (ones == 3) {
+                System.out.println("Forty-Three");
+            } else if (ones == 4) {
+                System.out.println("Forty-Four");
+            } else if (ones == 5) {
+                System.out.println("Forty-Five");
+            } else if (ones == 6) {
+                System.out.println("Forty-Six");
+            } else if (ones == 7) {
+                System.out.println("Forty-Seven");
+            } else if (ones == 8) {
+                System.out.println("Forty-Eight");
+            } else if (ones == 9) {
+                System.out.println("Forty-Nine");
+            }
+        } else if (tens == 5) {
+            if (ones == 0) {
+                System.out.println("Fifty");
+            } else if (ones == 1) {
+                System.out.println("Fifty-One");
+            } else if (ones == 2) {
+                System.out.println("Fifty-Two");
+            } else if (ones == 3) {
+                System.out.println("Fifty-Three");
+            } else if (ones == 4) {
+                System.out.println("Fifty-Four");
+            } else if (ones == 5) {
+                System.out.println("Fifty-Five");
+            } else if (ones == 6) {
+                System.out.println("Fifty-Six");
+            } else if (ones == 7) {
+                System.out.println("Fifty-Seven");
+            } else if (ones == 8) {
+                System.out.println("Fifty-Eight");
+            } else if (ones == 9) {
+                System.out.println("Fifty-Nine");
+            }
+        } else if (tens == 6) {
+            if (ones == 0) {
+                System.out.println("Sixty");
+            } else if (ones == 1) {
+                System.out.println("Sixty-One");
+            } else if (ones == 2) {
+                System.out.println("Sixty-Two");
+            } else if (ones == 3) {
+                System.out.println("Sixty-Three");
+            } else if (ones == 4) {
+                System.out.println("Sixty-Four");
+            } else if (ones == 5) {
+                System.out.println("Sixty-Five");
+            } else if (ones == 6) {
+                System.out.println("Sixty-Six");
+            } else if (ones == 7) {
+                System.out.println("Sixty-Seven");
+            } else if (ones == 8) {
+                System.out.println("Sixty-Eight");
+            } else if (ones == 9) {
+                System.out.println("Sixty-Nine");
+            }
+        } else if (tens == 7) {
+            if (ones == 0) {
+                System.out.println("Seventy");
+            } else if (ones == 1) {
+                System.out.println("Seventy-One");
+            } else if (ones == 2) {
+                System.out.println("Seventy-Two");
+            } else if (ones == 3) {
+                System.out.println("Seventy-Three");
+            } else if (ones == 4) {
+                System.out.println("Seventy-Four");
+            } else if (ones == 5) {
+                System.out.println("Seventy-Five");
+            } else if (ones == 6) {
+                System.out.println("Seventy-Six");
+            } else if (ones == 7) {
+                System.out.println("Seventy-Seven");
+            } else if (ones == 8) {
+                System.out.println("Seventy-Eight");
+            } else if (ones == 9) {
+                System.out.println("Seventy-Nine");
+            }
+        } else if (tens == 8) {
+            if (ones == 0) {
+                System.out.println("Eighty");
+            } else if (ones == 1) {
+                System.out.println("Eighty-One");
+            } else if (ones == 2) {
+                System.out.println("Eighty-Two");
+            } else if (ones == 3) {
+                System.out.println("Eighty-Three");
+            } else if (ones == 4) {
+                System.out.println("Eighty-Four");
+            } else if (ones == 5) {
+                System.out.println("Eighty-Five");
+            } else if (ones == 6) {
+                System.out.println("Eighty-Six");
+            }
+       } else if (tens == 9) {
+            if (ones == 0) {
+                System.out.println("Ninety");
+            } else if (ones == 1) {
+                System.out.println("Ninety-One");
+            } else if (ones == 2) {
+                System.out.println("Ninety-Two");
+            } else if (ones == 3) {
+                System.out.println("Ninety-Three");
+            } else if (ones == 4) {
+                System.out.println("Ninety-Four");
+            } else if (ones == 5) {
+                System.out.println("Ninety-Five");
+            } else if (ones == 6) {
+                System.out.println("Ninety-Six");
+            } else if (ones == 7) {
+                System.out.println("Ninety-Seven");
+            } else if (ones == 8) {
+                System.out.println("Ninety-Eight");
+            } else if (ones == 9) {
+                System.out.println("Ninety-Nine");
+            }
+        }
